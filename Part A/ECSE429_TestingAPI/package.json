@@ -1,0 +1,21 @@
+{
+  "name": "ecse429_testingapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 'test/**/*.spec.js'",
+    "test:shuffle": "node scripts/run-shuffle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "axios": "^1.12.2",
+    "chai": "^6.2.0",
+    "glob": "^11.0.3",
+    "mocha": "^11.7.4",
+    "xml2js": "^0.6.2"
+  }
+}
